@@ -54,6 +54,6 @@ io.on('connection', (socket) => {
   });
 });
 
-http.listen(3000, () => {
-  console.log('服务器运行在端口 3000');
+http.listen(8000, () => {
+  console.log('服务器运行在端口 8000');
 });
